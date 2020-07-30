@@ -12,7 +12,6 @@
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
 		<app.runtime>4.2.2</app.runtime>
 		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
 	</properties>
@@ -31,7 +30,7 @@
 					      <muleVersion>4.2.2</muleVersion>
 					      <username>durisalasaikrishna</username>
 					      <password>Nani@3375</password>
-					      <applicationName>cicd-poc-app</applicationName>
+					      <applicationName>cicd-poc-app-${maven.build.timestamp}</applicationName>
 					      <environment>Sandbox</environment>
 					      <workers>1</workers>
 					      <workerType>Micro</workerType>
