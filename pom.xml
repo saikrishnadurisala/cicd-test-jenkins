@@ -30,7 +30,7 @@
 					      <muleVersion>4.2.2</muleVersion>
 					      <username>durisalasaikrishna</username>
 					      <password>Nani@3375</password>
-					      <applicationName>cicd-poc-app-${maven.build.timestamp}</applicationName>
+					      <applicationName>cicd-poc-app</applicationName>
 					      <environment>Sandbox</environment>
 					      <workers>1</workers>
 					      <workerType>Micro</workerType>
