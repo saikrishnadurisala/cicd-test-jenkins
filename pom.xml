@@ -32,6 +32,9 @@
 					      <password>Nani@3375</password>
 					      <applicationName>cicd-poc-app</applicationName>
 					      <environment>Sandbox</environment>
+					      <workers>1</workers>
+					      <workerType>Micro</workerType>
+					      
 					      <properties>
 					        <env>sandbox</env>
 					      </properties>
