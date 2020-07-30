@@ -26,6 +26,7 @@
 				<extensions>true</extensions>
 				<configuration>		
 					<cloudHubDeployment>
+					      <uri>https://anypoint.mulesoft.com/</uri>
 					      <muleVersion>4.2.2</muleVersion>
 					      <username>durisalasaikrishna</username>
 					      <password>Nani@3375</password>
@@ -33,6 +34,7 @@
 					      <environment>Sandbox</environment>
 					      <workers>1</workers>
 					      <workerType>Micro</workerType>
+					      
 					      <properties>
 					        <env>sandbox</env>
 					      </properties>
