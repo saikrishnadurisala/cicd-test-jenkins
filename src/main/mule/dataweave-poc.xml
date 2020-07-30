@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/salesforce http://www.mulesoft.org/schema/mu
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="105c2e6f-404c-406e-8d4e-d73539fbc0ca" >
 		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
-	<flow name="dataweave-poc-do" doc:id="999d7ee4-981f-473f-b1f0-216476465135" >
+	<flow name="dataweave-poc-main" doc:id="999d7ee4-981f-473f-b1f0-216476465135" >
 		<http:listener doc:name="Listener" doc:id="3386e5bc-f673-40bb-84ce-af9789bebb5c" config-ref="HTTP_Listener_config" path="/api/test"/>
 		<ee:transform doc:name="Transform" doc:id="3fd21b77-ceaa-48f7-bb2e-59b2f0d0aec3" >
 			<ee:message >
