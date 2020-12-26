@@ -16,7 +16,7 @@ http://www.mulesoft.org/schema/mule/salesforce http://www.mulesoft.org/schema/mu
 				<ee:set-payload ><![CDATA[%dw 2.0
 var data = [
   {
-    "ChildAccounts1": [
+    "ChildAccounts": [
       {
         "Id": "000183837",
         "type": "Account",
